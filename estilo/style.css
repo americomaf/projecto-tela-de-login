@@ -65,21 +65,40 @@ div.campo > label{
     display: none;
 }
 
+#icon{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #49cfcd;
+    /*font-size: 1em;*/
+    height: 100%;
+    width: calc(100%-44px);
+    padding: 4px;
+    border-radius: 8px;
+    transform: translateY(-10px);
+    padding: 4px;
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
+
 form div.campo{
     background-color: #5f2c82;
     display: block;
     width: 100%;
-    height: 40px;
-    border-radius: 5px;
+    height: 40x;
+    border-radius: 8px;
     margin: 5px 0px;
 
 }
 
 
 .subm {
-
-
-    
     display: block;
     font-size: 1em;
     width: 100%;
